@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://${DB_HOST:prod-db-host}:${DB_PORT:3306}/${DB_NAME:quiz_db}
+    username: prod_user
+    password: prod_password
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+  server:
+    port: 80
