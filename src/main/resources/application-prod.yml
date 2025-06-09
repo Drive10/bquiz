@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: quiz-db.czmygas2kjup.eu-north-1.rds.amazonaws.com:3306/quiz_db
+    url: jdbc:mariadb://quiz-db.czmygas2kjup.eu-north-1.rds.amazonaws.com:3306/quiz_db
     username: admin
     password: password
 
